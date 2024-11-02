@@ -1,0 +1,22 @@
+{
+  "name": "sst-blinks",
+  "version": "1.0.0",
+  "main": "src/donate.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/types": "^3.679.0",
+    "@solana/actions": "^1.6.5",
+    "@solana/web3.js": "^1.95.4",
+    "aws-sdk": "^2.1691.0",
+    "sst": "3.2.73",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145"
+  }
+}
