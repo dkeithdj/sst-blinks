@@ -11,7 +11,7 @@ import { prepareDonateTransaction } from "./util";
 import { APIGatewayProxyEvent, Handler } from "aws-lambda";
 
 const DONATION_DESTINATION_WALLET =
-  "EQb8LApPTtZFk3cY7WcaAmEvuL6s3Q1q8ozxcPcBJ5dc";
+  "EQb8LApPTtZFk3cY7WcaAmEvuL6s3Q1q8ozxcPcBJ5dc"; // Replace with your own wallet address
 const DONATION_AMOUNT_SOL_OPTIONS = [1, 5, 10];
 const DEFAULT_DONATION_AMOUNT_SOL = 1;
 

@@ -6,9 +6,5 @@ import "sst"
 export {}
 declare module "sst" {
   export interface Resource {
-    "Actions": {
-      "type": "sst.aws.ApiGatewayV2"
-      "url": string
-    }
   }
 }
